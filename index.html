@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Sprawdzanie hasła</title>
+		<link rel="stylesheet" href="main.css"></link>	
+	</head>
+	<body>
+		<h1>Weryfikacja hasła</h1>
+		<div id="opis">
+			<div>Hasło silne - od 7 znaków + cyfra</div>		
+			<div>Hasło średnie - od 4 do 6 znaków + cyfra</div>		
+			<div>Hasło słabe - do 3 znaków lub brak cyfry</div>	
+		</div>
+		<label for="haslo">Wpisz hasło: </label><input type="password" id="haslo">
+		<input type="button" value="Weryfikuj" onclick="weryfikuj()">
+		<div id="wynik"></div>
+
+		<script src="password.js"></script> 
+	</body>
+</html>
